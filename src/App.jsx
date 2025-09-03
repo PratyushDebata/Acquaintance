@@ -13,7 +13,7 @@ const dummyProducts = [
 
 function Navbar({ cart, wishlist, setSearch }) {
   return (
-    <nav className="bg-navy text-white px-6 py-4 flex justify-between items-center">
+    <nav className="bg-blue-950 text-white px-6 py-4 flex justify-between items-center">
       <Link to="/" className="text-2xl font-bold">AQUINTANCE</Link>
       <div className="flex gap-6">
         <Link to="/">Home</Link>
