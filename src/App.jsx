@@ -14,7 +14,7 @@ const dummyProducts = [
 function Navbar({ cart, wishlist, setSearch }) {
   return (
     <nav className="bg-blue-950 text-white px-6 py-4 flex justify-between items-center">
-      <Link to="/" className="text-2xl font-bold">AQUINTANCE</Link>
+      <Link to="/" className="text-2xl font-bold">ACQUAINTANCE</Link>
       <div className="flex gap-6">
         <Link to="/">Home</Link>
         <Link to="/collections">Collections</Link>
@@ -24,7 +24,7 @@ function Navbar({ cart, wishlist, setSearch }) {
         <input 
           type="text" 
           placeholder="Search..." 
-          className="px-2 py-1 rounded text-black"
+          className="px-2 py-1 rounded text-white"
           onChange={(e)=> setSearch(e.target.value)}
         />
         <Link to="/wishlist"><FiHeart size={22} /></Link>
